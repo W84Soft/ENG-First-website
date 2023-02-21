@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&display=swap");
+
+/* DEFAULT STYLES */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 18px;
+  font-family: "Montserrat";
+  background: #eee;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: "Montserrat";
+  color: black;
+}
+
+/* WEBSITE STYLES */
+header,
+footer {
+  padding: 0.5rem 0;
+  background: #222222;
+  font-size: 24px;
+}
+
+header a {
+  color: #fff;
+  text-transform: uppercase;
+  background: -webkit-linear-gradient(-45deg, #3e96b9, #65cf96);
+  -webkit-background-clip: text;
+  padding: 0.5rem 1rem;
+
+  transition: 0.3s;
+}
+
+header a:hover {
+  color: transparent;
+}
+
+.logo {
+  color: #fff;
+  font-size: 32px;
+  text-transform: none;
+}
+
+.logo span {
+  color: transparent;
+  background: -webkit-linear-gradient(-45deg, #3e96b9 0%, #65cf96 100%);
+  -webkit-background-clip: text;
+}
+
+/* ABOUT SECTION */
+.slide {
+  padding: 12rem 0;
+  background: -webkit-linear-gradient(-45deg, #5fc69c, #d7f0fa);
+  font-size: 24px;
+}
+
+.slide .logo {
+  font-size: 48px;
+}
+
+#about {
+  background: #fff;
+}
+
+/* SENTENCE SECTION */
+.sentence .grid-container {
+  font-size: 32px;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  background: #fff;
+  padding: 2rem;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+}
+
+.icons {
+  font-size: 32px;
+  padding-bottom: 6rem;
+}
+.h7 {
+  font-size: 52px;
+}
+.grid-container {
+  grid-gap: 500px;
+}
+.gallery .description {
+  background: rgba(127, 255, 212, 0.8);
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: 0.3s;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem;
+}
+
+.gallery img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: saturate(0.5);
+  transition: 1.5s;
+}
+
+.gallery .cell:hover img {
+  filter: saturate(0.5) blur(4px);
+  transform: scale(1.2);
+}
+
+.gallery .cell {
+  position: relative;
+  overflow: hidden;
+}
+
+.gallery .cell:hover .description {
+  opacity: 1;
+}
+
+.py-8 {
+  padding-bottom: 4rem;
+  padding-top: 4rem;
+}
+
+.uppercase{
+	text-transform: uppercase;
+}
+
+.steps i{
+	font-size: 64px;
+	margin-bottom: 1.5rem;
+  	color: #48937f;
+}
+
+.steps p{
+	margin-top: 1.5rem;
+}
