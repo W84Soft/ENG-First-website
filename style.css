@@ -136,6 +136,8 @@ header a:hover {
 .py-8 {
   padding-bottom: 4rem;
   padding-top: 4rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 .uppercase{
