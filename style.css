@@ -136,6 +136,8 @@ header a:hover {
 .py-8 {
   padding-bottom: 4rem;
   padding-top: 4rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 .uppercase{
@@ -150,4 +152,10 @@ header a:hover {
 
 .steps p{
 	margin-top: 1.5rem;
+}
+
+.but1{
+width: 120px;
+background-color: #89c4ac;
+
 }
