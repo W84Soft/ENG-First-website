@@ -166,17 +166,10 @@ width: 120px;
 background-color: #89c4ac;
 }
 
-.front {
-  background-image: src="images/Frame front.jpg";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  opacity: 0;
-  transition: 0.3s;
-  justify-content: center;
-  align-items: center;
-  padding: 6rem;
-}
+  .slide{
+    background:url("images/Frame front.jpg");
+    background-size:cover;
+    height:450px;
+    }
+
 
