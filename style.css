@@ -49,6 +49,14 @@ header a:hover {
   color: transparent;
 }
 
+.bulb {
+ 
+    width: 5%;
+    height: 5%;
+
+  }
+
+
 .logo {
   color: #FFB703;
   font-size: 32px;
@@ -64,7 +72,6 @@ header a:hover {
 /* ABOUT SECTION */
 .slide {
   padding: 12rem 0;
-  background: -webkit-linear-gradient(-45deg, #5fc69c, #d7f0fa);
   font-size: 24px;
 }
 
@@ -157,6 +164,19 @@ header a:hover {
 .but1{
 width: 120px;
 background-color: #89c4ac;
+}
 
+.front {
+  background-image: src="images/Frame front.jpg";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: 0.3s;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem;
 }
 
