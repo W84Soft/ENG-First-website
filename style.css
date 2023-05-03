@@ -48,12 +48,12 @@ header a {
 header a:hover {
   color: transparent;
 }
-
+.sentenc{
+  color: #ffffff;
+}
 .bulb {
- 
     width: 5%;
     height: 5%;
-
   }
 
 
@@ -169,7 +169,7 @@ background-color: #89c4ac;
   .slide{
     background:url("images/Frame front.jpg");
     background-size:cover;
-    height:450px;
+    height:850px;
     }
 
 
