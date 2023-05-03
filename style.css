@@ -31,12 +31,12 @@ h6,
 header,
 footer {
   padding: 0.5rem 0;
-  background: #222222;
+  background: #ffffff;
   font-size: 24px;
 }
 
 header a {
-  color: #fff;
+  color: black;
   text-transform: uppercase;
   background: -webkit-linear-gradient(-45deg, #3e96b9, #65cf96);
   -webkit-background-clip: text;
@@ -50,7 +50,7 @@ header a:hover {
 }
 
 .logo {
-  color: #fff;
+  color: #FFB703;
   font-size: 32px;
   text-transform: none;
 }
