@@ -51,6 +51,7 @@ header a:hover {
 .sentenc{
   color: #ffffff;
 }
+
 .bulb {
     width: 5%;
     height: 5%;
@@ -58,9 +59,12 @@ header a:hover {
 
 
 .logo {
+  display: flex;
   color: #FFB703;
   font-size: 32px;
   text-transform: none;
+  justify-content: center;
+ text-align: center;
 }
 
 .logo span {
