@@ -78,7 +78,24 @@ header a:hover {
 }
 
 .slide div::after{
-	content:"_"
+	content:"_";
+}
+
+.slide div.active::after{
+	-webkit-animation: typing 1.2s infinite linear;
+}
+
+[data-typewriter]{
+	transition: .1s;
+}
+
+@-webkit-keyframes typing{
+	0%{
+		opacity: .1;
+	}
+	100%{
+		opacity: 1;
+	}
 }
 
 #about {
