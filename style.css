@@ -185,21 +185,23 @@ header a:hover {
 }
 
 .steps i{
-	display: inline-block;
-	vertical-align: middle;
+	display: block;
+	text-align: center;
 	font-size: 44px;
-	padding-right: 1.25rem;
+	padding-bottom: .75rem;
 }
 
 .steps h3{
-	display: inline-block;
-	vertical-align: middle;
+	display: block;
+	text-align:center;
+	height: 68px;
 	color:#eee;
 }
 
 .steps p{
 	font-size: 20px;
-	padding-top: 2.25rem;
+	padding-top: .5rem;
+	margin: 0;
 }
 
 .but1{
