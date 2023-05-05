@@ -31,6 +31,16 @@ h3,.h3{
 	font-size: 24px;
 }
 
+.fas.fa-book {
+  color: #FFB703
+}
+.fa-solid.fa-microchip {
+  color: #15A6D8;
+}
+.fa-solid.fa-laptop{
+  color: #DD4E4E;
+}
+
 /* WEBSITE STYLES */
 header{
 	padding: 1rem 0;
